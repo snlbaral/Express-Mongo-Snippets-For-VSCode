@@ -1,0 +1,41 @@
+{
+    "name": "express-mongo-snippets",
+    "displayName": "express-mongo-snippets",
+    "description": "Express Mongo DB Snippets",
+    "version": "0.0.1",
+    "publisher": "snlbaral",
+    "author": {
+        "name": "Sunil Baral"
+    },
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/snlbaral/Express-Mongo-Snippets-For-VSCode"
+    },
+    "bugs": {
+        "url": "https://github.com/snlbaral/Express-Mongo-Snippets-For-VSCode/issues"
+    },
+    "keywords": [
+        "express",
+        "mongo",
+        "mongoose",
+        "jwt",
+        "route",
+        "controller",
+        "snippets"
+    ],
+    "icon": "images/logo.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
